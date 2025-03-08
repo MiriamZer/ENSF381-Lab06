@@ -8,9 +8,9 @@ const topics = [
 ];
 
 function EngineeringTopics() {
-  return topics.map(function(topic, index) {
+  return topics.map(function(topic) {
     return (
-      <div key={index}>
+      <div key={topic.id}>
         <h3>{topic.title}</h3>
         <p>{topic.description}</p>
       </div>
