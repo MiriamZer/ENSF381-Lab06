@@ -3,7 +3,7 @@ import EngineeringTopics from './EngineeringTopics';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <EngineeringTopics /> 
     </div>
   );
